@@ -781,6 +781,43 @@ footer span {
     color: var(--green);
 }
 
+.carousel {
+    position: relative;
+    x: 50%;
+    overflow: hidden;
+    max-width: 800px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slides img {
+    width: 100%;
+    flex-shrink: 0;
+    height: 450px;
+    object-fit: cover;
+}
+
+.next, .prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
 
 /* ---------- RESPONSIVE ---------- */
 
