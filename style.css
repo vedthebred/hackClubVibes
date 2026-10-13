@@ -819,6 +819,20 @@ footer span {
     right: 10px;
 }
 
+.surpriseContent {
+    z-index: 9090938184798174;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    display: none;
+    background-color: black;
+    color: inherit;
+    border-radius: 6px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
 /* ---------- RESPONSIVE ---------- */
 
 @media (max-width: 900px) {
